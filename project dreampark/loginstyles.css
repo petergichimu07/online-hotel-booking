@@ -1,0 +1,82 @@
+body{
+    background: url("gallery_06.jpg");
+    margin:0;
+    padding:0;
+    
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif; 
+
+}
+#login{
+    background: linear-gradient(rgba(255, 255, 255, 0.534),rgba(245, 245, 220, 0.767),rgba(0, 0, 255, 0.863));
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* position: absolute;  */
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    top: 50%;
+    left:50%;
+    height: 650px;
+    width:  500px;
+    font-family: sans-serif;
+    text-align: center;
+}
+#login input[type="submit"]{
+    border:none;
+    outline: none;
+    height:40px;
+    width: 100px;
+    background: maroon;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+#login input[type="submit"]:hover{
+    color: black;
+    background: greenyellow;
+    cursor: pointer;
+} 
+#login input[type="text"], input[type="email"],input[type="text"]{
+    border:none;
+    border-bottom: 1px solid rgb(12, 8, 36);
+    background: transparent;
+    color: blue;
+    outline: none;
+    height: 40px;
+}
+
+#back {
+	padding: 10px;
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 20px;
+      border:none;
+    outline: none;
+    height:40px;
+    width: 100px;
+    background: maroon;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+#back:hover{
+     color: black;
+    background: greenyellow;
+    cursor: pointer;
+}
+.image{
+
+     width: 150px;
+    height:150px;
+    border-radius: 50%;
+    position:center;
+    top: -50px;
+    /*left: calc(50% -45px);*/
+
+}
+
+}

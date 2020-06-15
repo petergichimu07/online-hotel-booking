@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>booking</title>
+         <link rel="stylesheet" type="text/css" href="bookstyle.css">
+         
+    </head>
+    <form id="bookform" action="bookdetails.php"  method="post">
+        <h1>Dreampark Customer Booking  Form</h1>
+      
+       
+        <div id="sec1">
+        <p> Number of Days</p>
+
+        <select name="days" method="post" id="selection">  
+            <option value="1">1 day</option>
+            <option value="2">2 days</option>
+            <option value="3">3 days</option>
+            <option value="4">4 days</option>
+            <option value="5">5 days</option>
+            <option value="6">6 days</option>
+            <option value="7">7 days</option>
+            </select>
+        </div>  
+        <div id="sec1">
+            <p>meals per day</p>
+            <select name= meals method="post" id="selection"> 
+                 <option value="breakfast only">Breakfast only</option>
+                <option value="breakfast and lunch">Breakfast and Lunch</option>
+                <option value="breakfast, lunch and supper">Breakfast,Lunch and supper</option>
+                <option value="lunch only">Lunch only</option>
+                <option value="lunch and supper">Lunch and supper</option>
+                <option value="breakfast and supper">Breakfast and supper</option>
+                <option value="breakfast and lunch">Breakfast and Lunch</option>
+                </select>
+            </div>
+            <div id="sec1">
+                <p>type of room</p>
+                <select name="roomtype" method= "post" id="selection"> 
+                    <option >single</option>
+                   <option>double</option>
+                   <option>family</option>
+                   </select>
+             </div>
+                   <div id="sec1">
+                   <h2>Dietary Concerns</h2>
+                   <p>Do you have any dietary restrictions?</p>
+                   <select id="selection" name="restrictions" method="post">
+                           <option value="yes">Yes</option>
+                           <option value="yes">No</option>
+                  
+                   </select>
+                   </div>
+                   <div id="sec1">
+                   <p>If yes,please specify</p>
+                   <select id="selection"name="specify">
+                           <option value="medical">Medical</option>
+                           <option value="vegeterian">Vegeterian</option>
+                           <option value="other">Others</option>
+                           
+                   </select>
+                   </div>
+                   <div id="sec1">
+                   <p>If there is any other dietary issue,please describe it below: </p>
+                   <input type="text"name="describe" id="issue" autocomplete="off" placeholder="describe" method="post">
+                   <p>please complete this section by providing your name/name of the affected person</p>
+                   <input type="text" name="name"placeholder="name" id="issue" autocomplete="off" method="post"><br>
+
+                  
+                </div>
+                <div id="sec1">
+                    <p>Please provide your email address to complete your booking</p>
+                    <input type="email" name="email"placeholder="email" id="issue" autocomplete="off" method="post"><br>
+                </div> 
+                
+        
+                   <input type="submit" value="Submit" id="submit">
+                   <a href="dreampark homepage.html" id="back">Home</a>
+        
+        
+        </form>
+        
+    
+    <body> 
+
+    </body>
+</html>

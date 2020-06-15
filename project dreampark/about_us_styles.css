@@ -1,0 +1,106 @@
+
+#full_page{
+    width: cover;
+    height: inherit;
+    font-family: arial, verdana, sans-serif;
+    margin:none;
+    background: url(dining.png);
+
+    /*border-color: solid black;
+    border: 1px;
+    border-style: solid;*/
+
+}
+#about_header{
+    width: auto;
+    background-color: white;
+    height: 150px;
+
+}
+#about_body{
+    width:auto;
+    background: url(dining.png);
+    color: aliceblue;
+    height: 450px;
+}
+#about_footer{
+    width: auto;
+    height:85px;
+    background: grey transparent;
+}
+
+#zebra{
+    width:170px;
+    height:300px;
+    float: left;
+    padding: 20px;
+    border:none;
+    /*border-color: black;*/
+    background-color:rgb(252, 249, 249);
+    /*border-style: solid;*/
+    margin:  13px;
+    margin-right: 28px;
+    margin-left: 28px;
+    color: black;
+    
+}
+.zebpic{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    padding: 10px;
+    /*float: 50%;*/
+
+}
+
+#title{
+    color:#fff;
+    background:brown;
+
+    font-weight: bold;
+    font-size: 25px;
+}
+#zebra :hover{
+    background-color: rgb(240, 240, 113);
+    cursor: pointer;
+    color: blue;
+    /*background-color: hsla(50, 33%, 25%, 1.00); */
+   
+}
+
+.social_media{
+    float: left;
+    padding: 20px;
+    color: #fff;
+    width: 180px;
+    background: rgb(72, 94, 48);
+    margin-right: 10px;
+    padding-inline-start: 10px;
+    text-decoration: none;
+    border-block-start: 5px;
+    text-align: center;
+    
+
+}
+
+.social_media:hover{
+    background: greenyellow;
+    cursor: pointer;
+    color: red;
+
+}
+.social{
+     text-decoration: none;
+        float:right;
+        padding:10px;
+        border-bottom:5px solid white;
+        transform: translate(-60px,75px);
+        color:black;
+        margin: 5px;
+}
+.social:hover{
+    cursor:pointer;
+        color: red;
+      
+       border-bottom:5px solid black;
+}

@@ -1,0 +1,260 @@
+
+
+.food{
+    height:300px;
+    width:100x;
+border-style:solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius:50%;
+    
+    
+   
+}
+.footlinks
+{
+    border:thick;
+    border-style:solid;
+    border-color:blue; 
+    float:left;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+    height:10px;
+    width: 150px;
+    background: orange;
+    background-position-x: 0mm;
+    color: black;
+    font-size: 30px;
+    border-radius: 20px;
+    font-size:large;
+    font-family: serif;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 32px;
+
+
+}
+.footlinks:hover{
+
+    cursor: pointer;
+background: black;
+color: white;
+border-bottom:10px red;
+border-color:orange;
+}
+#container{   
+    width: cover;
+    
+    background: url("newsletter-bg.jpg");
+    margin: 0 auto;
+    border:none;
+    font-family: arial, verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ 
+        #header{
+            background:white;
+            width: auto;
+             height: 150px;
+            padding: 20px 10px;
+         
+            color: #fff;
+            text-align: center;
+            
+        }
+        .imgres{
+            margin-left:none;
+        }
+        #nav{
+            background: green;
+            width: 0 auto;
+            
+          
+        }
+           #nav ul{
+               list-style:none;
+           }
+             #nav ul li {
+                 float: left;
+                 width: 220px;
+                 text-align:center;
+                 padding: 15px 0px;
+                 margin-right: 5px: 
+             }
+             #nav ul li:hover{
+                 background:greenyellow;
+                 cursor: pointer;
+                 color: black;
+             }
+             #nav a{
+                 color:white;
+             }
+        #middle{
+            height: 550px;
+        }
+             #left{
+                 background:  beige;
+                 width:694px;
+                 height:300px;
+                 float:left;
+                 margin: 50px;
+                 margin-bottom: none;
+                 border-style: solid;
+                 border : 1px;
+                 border-color: black;
+                 
+             }
+             .post{
+                 
+                 
+             }
+             .title{
+                 color:#fff;
+                 background:brown;
+
+                 font-weight: bold;
+                 font-size: 25px;
+             }
+             .description{
+                 font-style: ;
+                 font-size: 20px;
+             }
+             
+        #footer{
+            background:linear-gradient(maroon,maroon) ;
+            height: 112px;
+            
+        }
+    #contacts{
+        color: #fff;
+        float: left;
+
+    }
+    #contacts ul li{
+    	list-style: none;
+    }
+    #contacts ul li{
+    	float: left;
+    }
+
+    .header2{
+        background: content-box;
+        text-align: center;
+        width: 0 auto;
+    }
+    .start{
+        text-decoration: none;
+        background: maroon;
+        background-origin: 50%;
+        /*width: 100px;*/
+        border-style: solid;
+        border: 3px;
+        border-color: black;
+        border-radius: 20px;
+        text-align: center;
+        padding: 15px;
+        top: 50%;
+        left:50%;
+        color: steelblue;
+        text-emphasis: bolder;
+        
+
+        
+
+    }
+    .start:hover{
+
+        cursor: pointer;
+    background: orange;
+    text-emphasis: bolder;
+    color: rgb(18, 73, 90);
+   /* border-bottom:10px red;
+    border-color:orange;*/
+    }
+    .logo{
+        
+    top: 50%;
+    left:50%;
+    /*position: absolute;*/
+    transform: translate(-230px,0px);
+    /*width: 650px;
+    height: 150px;*/
+    margin-left: none;
+    }
+    .book_now{
+        text-decoration: none;
+        float:right;
+        padding:10px;
+        font-weight: bold;
+        border-bottom:5px solid white;
+        transform: translate(-60px,75px);
+        color:black;
+        margin: 5px;
+    }
+    .book_now:hover{
+        cursor:pointer;
+        color: red;
+      
+       border-bottom:5px solid black;
+
+    }
+    #body1{
+        height:400px;
+        width:300px;
+        background:linear-gradient(rgba(8, 8, 36, 0.87),rgba(255, 255, 255, 0.911));
+        border-radius:10%;
+        float: left;
+        margin:50px;
+        color:rgb(8, 8, 36);
+        text-decoration: none;
+        padding:15px;
+    }
+    .body2{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .test1{
+        background: maroon;
+        padding:9px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        margin-left: 10%;
+        text-decoration: none;
+        color:#fff;
+        margin-right:none;
+        float:left;
+    }
+    .test2{
+        text-decoration: none;
+        border: 2px solid maroon;
+        padding: 7px;
+        color: black;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-left: none;
+        float:left;
+        
+    }
+    .test1:hover{
+        cursor: pointer;
+        background: transparent;
+        border: 2px solid green;
+        color: black;
+        padding: 7px;
+        border-right: none;
+    }
+    .test2:hover{
+        cursor: pointer;
+        background: green;
+        border: 2px solid green;
+        color:#fff;
+    }
+
